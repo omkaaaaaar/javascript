@@ -68,3 +68,29 @@ console.log(selectedColors); //op= ['red', 'blue', 'grey', 5]
 console.log(selectedColors[0]); //op= red
 console.log(selectedColors[1]); //op= blue
 console.log(selectedColors.length); //op= 2
+
+
+
+//Functions
+//performing a task
+function greet(name, lastName){ //variable name is a parameter in parenthesis, a fn can have multiple parameters separated by commas
+    //body of the function, ts is where we add all the statements to define the logic of the function
+    console.log('Hello ' + name + ' '+ lastName); //output: Hello Omkar
+}
+
+greet('Omkar', 'Patkar'); 
+// we call the function to execute the code inside the function body
+//here Omkar is an argument to the greet function, name is the parameter of thr greet function
+//argument is the actual value that we pass to the function when we call it
+greet('Nikhil', 'Sutar');
+
+//calculating a value
+function square(number){ // number is a parameter
+    return number * number; // return keyword is used to return a value from a function
+}
+
+let number = square(2); // 2 is an argument
+console.log(number); //op= 4s
+
+console.log(square(3)); //op= 9 directly calling the function inside console.log without storing the return value in a variable
+console.log(square(4)); //op= 16

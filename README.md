@@ -118,3 +118,10 @@ Sometimes we deal with a list of objects, ex-list of products in a shopping cart
 
 - we can store different data types in an array, ex an array with str can store int too!
 - the array is automatically created as an object in js, and inherits properties like every,fill, filter,findIndex,forEach,length etc
+
+---
+
+**Functions**
+A function are one of the essential building blocks of js, a function is a set of statements that performs a task or calculates a value
+Keyword - function
+ex - function abc() <- here the parenthesis are the syntax for defining structures
